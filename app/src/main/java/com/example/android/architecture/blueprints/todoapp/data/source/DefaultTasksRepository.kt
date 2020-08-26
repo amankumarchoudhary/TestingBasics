@@ -73,7 +73,7 @@ class DefaultTasksRepository (
         private val ioDispatcher: CoroutineDispatcher = Dispatchers.IO
 ) : TasksRepository {
 
-    companion object {
+    /*companion object {
         @Volatile
         private var INSTANCE: DefaultTasksRepository? = null
 
@@ -87,7 +87,7 @@ class DefaultTasksRepository (
                 }
             }
         }
-    }
+    }*/
 
     /*init {
         val database = Room.databaseBuilder(application.applicationContext,
